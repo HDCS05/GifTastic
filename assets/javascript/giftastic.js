@@ -105,7 +105,7 @@ $(function () {
     function createbuttons() {
     	//Let's create the buttons
     	$("#VarButtons").empty();
-      $("#dinput").val("");
+      $("#dinput").val();
 		for ( var i = 0; i < atopics.length; i++ ) {
 			vnewbut = $("<button />").text(atopics[i]);
 			vnewbut.addClass("btn btn-info btn-lg firstcap");
