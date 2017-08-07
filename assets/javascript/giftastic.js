@@ -105,9 +105,10 @@ $(function () {
     function createbuttons() {
     	//Let's create the buttons
     	$("#VarButtons").empty();
+      $("#dinput").val("");
 		for ( var i = 0; i < atopics.length; i++ ) {
 			vnewbut = $("<button />").text(atopics[i]);
-			vnewbut.addClass("btn btn-info btn-lg");
+			vnewbut.addClass("btn btn-info btn-lg firstcap");
 			vnewbut.addClass("topicbtns");
 			vnewbut.attr("data-name",atopics[i]);
 			$("#VarButtons").append(vnewbut);
