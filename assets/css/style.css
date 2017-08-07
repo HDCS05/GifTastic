@@ -29,6 +29,10 @@
 	text-align: center;
 }
 
+.firstcap {
+	text-transform: capitalize;
+}
+
 .doublef {
 	font-size: 2em;
 }
